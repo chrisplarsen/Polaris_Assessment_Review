@@ -20,3 +20,7 @@ function plusTwo(value) {
     return parseFloat(value) + 2;
     //return parseInt(value) + 2; works as well
 }
+
+function addOne(value) {
+    return parseFloat(value) + 1;
+}
