@@ -32,3 +32,24 @@ function isPositive(value) {
     }
     return (answer > 0);
 }
+
+function isNegative(value) {
+    var answer = parseFloat(value);
+    if (is NaN(answer)) {
+        return NaN;
+    }
+    return (answer < 0);
+}
+
+function isNumeric(value) {
+    var answer = parseFloat(value);
+    return isNaN(answer);
+}
+//for some reason Kathleen said this one is important to keep
+
+function isNotNumeric(value) {
+    return !isNumeric(value);
+    //var answer = parseFloat(value);
+    //     return isNaN(answer);
+}
+
