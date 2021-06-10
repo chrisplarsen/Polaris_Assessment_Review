@@ -53,3 +53,23 @@ function isNotNumeric(value) {
     //     return isNaN(answer);
 }
 
+function isVowel(value) {
+    if (typeof value !== "string")
+        return false;
+    if (value.length !== 1)
+        return false;
+    value.toUppercase();
+    switch (value) {
+        case "A" :
+            return true;
+        case "E" :
+            return true;
+        case "I" :
+            return true;
+        case "O" :
+            return true;
+        case "U" :
+            return true;
+    }
+    return false;
+}
