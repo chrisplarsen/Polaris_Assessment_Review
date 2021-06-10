@@ -24,3 +24,11 @@ function plusTwo(value) {
 function addOne(value) {
     return parseFloat(value) + 1;
 }
+
+function isPositive(value) {
+    var answer = parseFloat(value);
+    if (isNaN(answer)) {
+        return NaN;
+    }
+    return (answer > 0);
+}
